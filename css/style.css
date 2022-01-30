@@ -3,9 +3,38 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 .about-me-proffesion {
+  font-style: normal;
   font-size: 14px;
-  font-weigth: 700;
+  font-width: bold;
+  line-height: 17px;
   color: #000;
+  margin-bottom: 20px;
+  padding-left: 5px;
+}
+.about-me-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  margin: 0 0 23px 0;
+}
+.about-me-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  width: 400px;
+}
+.projects,
+.exp,
+.education {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000;
+  margin-bottom: 10px;
 }
 .main-conteiner {
   display: flex;
@@ -14,9 +43,21 @@ body {
   background: #fff;
   margin: 40px auto;
 }
+/* main content */
 .main-content-section {
+  padding: 100px 90px;
 }
+.main-content-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: black;
+}
+
+/* About me section */
 .about-me-section {
+  margin: 0 0 40px 0;
 }
 .my-projects-section {
 }
@@ -96,4 +137,54 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+}
+/* my project list */
+.project-section {
+  padding: 0 0 0 17px;
+  color: #000;
+}
+.my-project-item {
+  color: #000;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+}
+.project-text {
+  color: #595959;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 5px;
+}
+.vacansy {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+}
+.paragraph-time {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+}
+
+.list-ul {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: 595959;
+  margin-right: 180px;
+  padding: 0 0 0 17px;
+}
+.bold {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 17px;
 }
